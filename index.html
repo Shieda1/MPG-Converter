@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPG Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="kmplRadio" name="variables" checked>
+  <label for="kmplRadio">kmpl</label>
+
+  <input type="radio" id="l100kmRadio" name="variables">
+  <label for="l100kmRadio">L/100km</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">L/100km</label>
+  <input type="number" id="v1"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
